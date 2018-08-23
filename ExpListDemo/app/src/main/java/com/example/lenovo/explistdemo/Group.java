@@ -8,8 +8,18 @@ import java.util.ArrayList;
 
 public class Group {
 
+    private int groupId;
     private String Name;
     private ArrayList<Child> Items;
+
+
+    public int getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(int groupId) {
+        this.groupId = groupId;
+    }
 
     public String getName() {
         return Name;

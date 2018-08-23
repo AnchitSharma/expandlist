@@ -6,8 +6,18 @@ package com.example.lenovo.explistdemo;
 
 public class Child {
 
+    private int childId;
     private String Name;
     private String Image;
+
+
+    public int getChildId() {
+        return childId;
+    }
+
+    public void setChildId(int childId) {
+        this.childId = childId;
+    }
 
     public String getName() {
         return Name;
